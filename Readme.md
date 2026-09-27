@@ -313,6 +313,6 @@ This is a learning project. It lacks:
 
 ## Author
 
-Built by **Aditya** as a deep-dive into distributed systems and pipeline orchestration.
+Built by **Salabh** as a deep-dive into distributed systems and pipeline orchestration.
 
 *"The biggest thing I learned: reliability in distributed systems comes from state. Without it, a crash means you lose everything."*
