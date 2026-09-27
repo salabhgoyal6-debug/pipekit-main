@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipekit"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "celery",
+    "redis",
+    "click",
+    "requests"
+]
+
+[project.scripts]
+pipekit = "pipekit.cli.cli:cli"

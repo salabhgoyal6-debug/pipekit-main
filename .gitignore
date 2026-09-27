@@ -1,0 +1,47 @@
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Virtual Environment ──────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Distribution / Packaging ─────────────────────────
+*.egg-info/
+dist/
+build/
+*.egg
+MANIFEST
+
+# ── Database ─────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ── Environment Variables ─────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Logs & Temp ───────────────────────────────────────
+*.log
+*.tmp
+run_log*
+
+# ── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Testing ───────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
